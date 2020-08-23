@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="10dp"
+        android:padding="@dimen/_5sdp"
+      app:cardBackgroundColor="@color/colorYellowLight" >
+
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="match_parent"
+                android:src="@drawable/meatball"
+                tools:ignore="ContentDescription"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_115sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:text="Lunch"
+            android:textSize="@dimen/_11sp"
+            android:textColor="@color/colorGreen"
+            android:id="@+id/tvCategory"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:background="@drawable/rounded_color"
+          />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_115sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="Meatball Pasta"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold"
+            android:id="@+id/tvFood"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textColor="@color/colorWhite"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_115sdp"
+            android:layout_marginTop="@dimen/_58sdp"
+            android:text="Preparation Time: 1 hour"
+            android:drawableLeft="@drawable/ic_clock"
+           android:drawablePadding="@dimen/_5sdp"
+            android:textSize="@dimen/_12sp"
+            android:padding="@dimen/_2sdp"
+            android:id="@+id/tvTime">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
