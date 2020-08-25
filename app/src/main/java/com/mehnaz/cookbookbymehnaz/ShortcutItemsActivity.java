@@ -38,7 +38,7 @@ ArrayList<FruitModel> allSampleData;
 ArrayList<FruitModel> imageModelArrayList;
 
 
-private int[] myImageList = new int[]{R.drawable.apple, R.drawable.mango,R.drawable.straw, R.drawable.pineapple,R.drawable.orange,R.drawable.blue,R.drawable.water};
+private int[] myImageList = new int[]{R.drawable.noodls, R.drawable.pasta,R.drawable.cheesecake, R.drawable.meatball,R.drawable.steak,R.drawable.soup,R.drawable.meatball2};
 private String[] myImageNameList = new String[]{"Apple","Mango" ,"Strawberry","Pineapple","Orange","Blueberry","Watermelon"};
 @Override
 protected void onCreate(Bundle savedInstanceState) {

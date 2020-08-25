@@ -55,8 +55,8 @@ public class ShortcutlistAdapter extends RecyclerView.Adapter<ShortcutlistAdapte
         public MyViewHolder(View itemView) {
             super(itemView);
 
-            time = (TextView) itemView.findViewById(R.id.tv);
-            iv = (ImageView) itemView.findViewById(R.id.iv);
+            time = (TextView) itemView.findViewById(R.id.tvTitle);
+            iv = (ImageView) itemView.findViewById(R.id.imgMarks1);
         }
 
     }

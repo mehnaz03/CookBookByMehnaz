@@ -11,6 +11,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 import com.mehnaz.cookbookbymehnaz.Adapter.DashboardAdapter;
+import com.mehnaz.cookbookbymehnaz.Models.FruitModel;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.core.view.GravityCompat;
@@ -34,6 +35,9 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
     RecyclerView listView;
     private DashboardAdapter adapter;
 //    ArrayList<SubjectList> subjectList;
+ArrayList<FruitModel> imageModelArrayList;
+    private int[] myImageList = new int[]{R.drawable.noodls, R.drawable.pasta,R.drawable.meatball, R.drawable.cheesecake,R.drawable.steak,R.drawable.soup,R.drawable.soup,R.drawable.steak,R.drawable.steak};
+    private String[] data = new String[]{"Breakfast", "Lunch", "Snacks","Dinner","Desert","Thai","Chinese","Indian","Italian"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,18 +71,33 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
         // data to populate the RecyclerView with
         //  String[] data = {"Bousorama", "Bousorama", "Bousorama"};
 
-        String[] data = {"Breakfast", "Lunch", "Snacks","Dinner","Thai","Chinese","Indian","Italian"};
-        String[] subtext ={"0","0.00%","Show results","EDIT Profile","0","0.00%","Show results","EDIT Profile"};
+//        String[] data = {"Breakfast", "Lunch", "Snacks","Dinner","Thai","Chinese","Indian","Italian"};
+//        String[] subtext ={"0","0.00%","Show results","EDIT Profile","0","0.00%","Show results","EDIT Profile"};
 
         int numberOfRows = 2;
+        imageModelArrayList = eatFruits();
         listView.setLayoutManager(new GridLayoutManager(this, numberOfRows));
-        adapter = new DashboardAdapter(this,data,subtext);
+        adapter = new DashboardAdapter(this,imageModelArrayList);
         listView.setAdapter(adapter);
 
 
 
 
     }
+    private ArrayList<FruitModel> eatFruits(){
+
+        ArrayList<FruitModel> list = new ArrayList<>();
+
+        for(int i = 0; i < 9; i++){
+            FruitModel fruitModel = new FruitModel();
+            fruitModel.setName(data[i]);
+            fruitModel.setImage_drawable(myImageList[i]);
+            list.add(fruitModel);
+        }
+
+        return list;
+    }
+
 
     @Override
     public void onBackPressed() {

@@ -1,52 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:padding="2dp"
-    android:layout_width="@dimen/_280sdp"
-    android:layout_height="@dimen/_180sdp"
+    android:layout_width="@dimen/_300sdp"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="@dimen/_10sdp"
     >
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card_view"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="15dp"
-        android:layout_margin="5dp"
-        app:cardBackgroundColor="@color/colorOrangeDark">
+        android:layout_gravity="center">
 
-        <LinearLayout
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imgMarks"
             android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            android:textColor="@android:color/white"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="TODO" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imgMarks1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+            />
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_120sdp"
+                    android:background="@color/transparent"
+                    android:gravity="left"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:textColor="@color/colorYellow"
+                    android:textSize="@dimen/_16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_120sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="parent" />
+            </RelativeLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!--&lt;!&ndash;            android:background="#FADA7A"&ndash;&gt;         />-->
+
+        <TextView
+            android:id="@+id/tvSubject"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="5dp"
-            android:gravity="center">
+            app:layout_constraintTop_toBottomOf="@id/imgMarks"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="0"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_20sp"
+            android:visibility="gone"
+            />
 
-            <ImageView
-                android:id="@+id/iv"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:scaleType="fitXY"
-                android:src="@drawable/apple" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <TextView
-                android:id="@+id/tv"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text="Image"
-                android:textColor="#000"
-                android:textSize="16sp" />
-            <TextView
-                android:id="@+id/tv2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text="Apple"
-                android:textColor="#000"
-                android:textSize="14sp" />
-
-        </LinearLayout>
-
-    </androidx.cardview.widget.CardView>
-
-</RelativeLayout>
+</androidx.cardview.widget.CardView>

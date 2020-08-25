@@ -5,16 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/app_bar_dashboard">
+    tools:showIn="@layout/app_bar_dashboard"
+    android:background="#fffff2">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_margin="@dimen/_10sdp"
-        android:textSize="@dimen/_20sp"
-        android:text="Explore New Recipe"
+        android:textSize="@dimen/_18sp"
+        android:text="Explore New Recipes"
         android:id="@+id/tvTitle"
+        android:textColor="@color/colorOrangeLight"
+        android:textStyle="bold"
     />
     <androidx.appcompat.widget.SearchView
         android:id="@+id/search_bar"

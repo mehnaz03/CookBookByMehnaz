@@ -10,21 +10,21 @@ import android.widget.TextView;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.mehnaz.cookbookbymehnaz.Models.FruitModel;
 import com.mehnaz.cookbookbymehnaz.R;
 
+import java.util.ArrayList;
+
 public class  DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.ViewHolder> {
-    private String[] mData = new String[0];
-    private String [] values = new String[0];
-//  private int [] images= new int[0];
+
     private LayoutInflater mInflater;
     private ItemClickListener mClickListener;
-
+    private ArrayList<FruitModel> imageModelArrayList;
     // data is passed into the constructor
-    public DashboardAdapter(Context context, String[] data, String[] value) {
+    public DashboardAdapter(Context context, ArrayList<FruitModel> imageModelArrayList) {
         this.mInflater = LayoutInflater.from(context);
-//       this.images =images;
-        this.mData = data;
-        this.values =value;
+        this.imageModelArrayList = imageModelArrayList;
+
 
     }
 
@@ -38,19 +38,15 @@ public class  DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Vie
     // binds the data to the textview in each cell
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        String title = mData[position];
-        String  subtext = values[position];
-//         int image =images[position];
-        holder.myTextView.setText(title);
-        holder.textView.setText(subtext);
-//     holder.imageView.setImageResource(image);
+        holder.imageView.setImageResource(imageModelArrayList.get(position).getImage_drawable());
+        holder.myTextView.setText(imageModelArrayList.get(position).getName());
 
     }
 
     // total number of cells
     @Override
     public int getItemCount() {
-        return mData.length;
+        return imageModelArrayList.size();
     }
 
 
@@ -58,13 +54,13 @@ public class  DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Vie
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView myTextView;
         TextView textView;
-       CardView imageView;
+       ImageView imageView;
 
         ViewHolder(View itemView) {
             super(itemView);
             myTextView = (TextView) itemView.findViewById(R.id.tvTitle);
             textView = (TextView) itemView.findViewById(R.id.tvSubject);
-            imageView = (CardView) itemView.findViewById(R.id.imgMarks);
+            imageView = (ImageView) itemView.findViewById(R.id.imgMarks1);
             itemView.setOnClickListener(this);
         }
 
@@ -74,10 +70,7 @@ public class  DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Vie
         }
     }
 
-    // convenience method for getting data at click position
-    public String getItem(int id) {
-        return mData[id];
-    }
+
 
     // allows clicks events to be caught
     public void setClickListener(DashboardAdapter.ItemClickListener itemClickListener) {

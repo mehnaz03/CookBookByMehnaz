@@ -3,8 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/_15sdp"
-    app:cardCornerRadius="10dp"
->
+    app:cardCornerRadius="15dp"
+       app:cardElevation="@dimen/_10sdp"
+    >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -21,8 +22,14 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/cheesecake"/>
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imgMarks1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cheesecake"/>
+            </RelativeLayout>
+
 
 
         </androidx.cardview.widget.CardView>
@@ -35,13 +42,15 @@
             android:gravity="center"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:textColor="@color/colorBlack"
-            android:paddingTop="@dimen/_15sdp"
+            android:textColor="@color/colorYellow"
+            android:paddingTop="@dimen/_5sdp"
             android:paddingBottom="@dimen/_10sdp"
             android:paddingStart="@dimen/_10sdp"
             android:paddingEnd="@dimen/_10sdp"
-            android:textSize="@dimen/_18sp"
-            />
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold"
+            android:background="#f9f1f1"/>
+<!--&lt;!&ndash;            android:background="#FADA7A"&ndash;&gt;         />-->
 
         <TextView
             android:id="@+id/tvSubject"
