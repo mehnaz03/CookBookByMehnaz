@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_icon.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-mdpi\\ic_icon.png"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_shortcut_items.xml.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\app_bar_shortcut_items.xml"
     },
@@ -8,8 +12,20 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\series_items.xml"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_steak.jpg.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\steak.jpg"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.jpg.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\background.jpg"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cholabhatura.jpg.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\cholabhatura.jpg"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_wb_incandescent_24.xml.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_wb_incandescent_24.xml"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
@@ -28,12 +44,20 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\dashboard_list.xml"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_icon.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_icon.png"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_orange.jpg.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\orange.jpg"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shortcuts.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\shortcuts.png"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu.png.flat",
@@ -50,6 +74,10 @@
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mango.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\mango.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_breakfast.jpg.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\breakfast.jpg"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu.png.flat",
@@ -72,12 +100,20 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_dashboard_black_24dp.png"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_icon.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon.png"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_topdishes.xml.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\app_bar_topdishes.xml"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cheesecake.jpg.flat",
@@ -96,6 +132,10 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home_black_24dp.png"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_settings.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_settings.png"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
@@ -112,12 +152,36 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_favorite_light.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\favorite_light.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_wb_incandescent_24.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_wb_incandescent_24.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_avatar.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-mdpi\\ic_avatar.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_topdishes.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\topdishes.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_avatar.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-xhdpi\\ic_avatar.png"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dashboard.xml.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_notifications_black_24dp.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_settings.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_settings.png"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_notifications_black_24dp.png.flat",
@@ -128,16 +192,20 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\app_bar_favorite_items.xml"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_settings.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_settings.png"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_dashboard_black_24dp.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_dashboard_black_24dp.png"
     },
     {
-        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_dashboard_black_24dp.png.flat",
-        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_dashboard_black_24dp.png"
-    },
-    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\menu_dashboard.xml.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\menu\\dashboard.xml"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_dashboard_black_24dp.png"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_dashboard_black_24dp.png.flat",
@@ -152,20 +220,44 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_notifications_black_24dp.xml"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_frychicken.jpg.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\frychicken.jpg"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_category.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\category.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_wb_incandescent_24.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_wb_incandescent_24.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizza.jpg.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\pizza.jpg"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_color.xml.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\rounded_color.xml"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_settings.xml.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_settings.xml"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_avatar.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_avatar.png"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notifications_black_24dp.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_notifications_black_24dp.png"
     },
     {
-        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu.png.flat",
-        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_menu.png"
-    },
-    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_dashboard_black_24dp.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_menu.png"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_yellow.jpg.flat",
@@ -180,12 +272,20 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_dashboard_black_24dp.xml"
     },
     {
-        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_favorite.xml.flat",
-        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\content_favorite.xml"
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_settings.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_settings.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_burger.jpg.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\burger.jpg"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home_black_24dp.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_favorite.xml.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\content_favorite.xml"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -196,12 +296,16 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_card.xml.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\list_card.xml"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_card.xml.flat",
-        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\list_card.xml"
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tips1.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\tips1.png"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_dashboard_drawer.xml.flat",
@@ -212,6 +316,10 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\layout_dashboard.xml"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
@@ -220,16 +328,20 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\content_shortcut_dishes.xml"
     },
     {
-        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_icon.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-hdpi\\ic_icon.png"
     },
     {
-        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
-        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_top_dishesh_items.xml.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\top_dishesh_items.xml"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_camera.xml.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable-v21\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_home_black_24dp.xml.flat",
@@ -242,6 +354,10 @@
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_noodls.jpg.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\noodls.jpg"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_top_dishes.xml.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\activity_top_dishes.xml"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_menu.png.flat",
@@ -260,6 +376,10 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable-v21\\ic_menu_slideshow.xml"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_foodcategory_dishes.xml.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\content_foodcategory_dishes.xml"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_notifications_black_24dp.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_notifications_black_24dp.png"
     },
@@ -276,8 +396,20 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\pasta.jpg"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_wb_incandescent_24.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_wb_incandescent_24.png"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_gray.xml.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\rounded_gray.xml"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tips.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\tips.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_top_dishes.xml.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\content_top_dishes.xml"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_clock.png.flat",
@@ -296,8 +428,16 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\activity_favorite_dishes.xml"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_foodcategory_items.xml.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\app_bar_foodcategory_items.xml"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_clock.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_clock.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_wb_incandescent_24.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_wb_incandescent_24.png"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
@@ -320,28 +460,52 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_notifications_black_24dp.png"
     },
     {
-        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_shortcut_items.xml.flat",
-        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\activity_shortcut_items.xml"
-    },
-    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_border.xml.flat",
-        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\rounded_border.xml"
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_shortcut_items.xml.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\activity_shortcut_items.xml"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_clock.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_clock.png"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_border.xml.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\rounded_border.xml"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_wb_incandescent_24.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_wb_incandescent_24.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_wb_incandescent_24.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_wb_incandescent_24.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_soup.jpg.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\soup.jpg"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_shortcut_dishes_items.xml.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\shortcut_dishes_items.xml"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_light.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\light.png"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notifications_black_24dp.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_settings.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\settings.png"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
@@ -350,6 +514,10 @@
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_home_black_24dp.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lunch.jpg.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\lunch.jpg"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
@@ -368,24 +536,48 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_menu.png"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_favorite.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\favorite.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_foodcategory.xml.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\activity_foodcategory.xml"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_name.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\name.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_icon.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_icon.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_avatar.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\avatar.png"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dashboard_black_24dp.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_dashboard_black_24dp.png"
     },
     {
-        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_water.jpg.flat",
-        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\water.jpg"
-    },
-    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_single_card.xml.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\list_single_card.xml"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_water.jpg.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\water.jpg"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_avatar.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-hdpi\\ic_avatar.png"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_avatar.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_avatar.png"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_straw.png.flat",
@@ -400,8 +592,16 @@
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\layout\\nav_header_dashboard.xml"
     },
     {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_settings.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_settings.png"
+    },
+    {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg3.jpg.flat",
         "source": "D:\\AllAndroid\\CookBook\\app\\src\\main\\res\\drawable\\bg3.jpg"
+    },
+    {
+        "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_settings.png.flat",
+        "source": "D:\\AllAndroid\\CookBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_settings.png"
     },
     {
         "merged": "D:\\AllAndroid\\CookBook\\app\\build\\intermediates\\res\\merged\\debug\\drawable_apple.png.flat",

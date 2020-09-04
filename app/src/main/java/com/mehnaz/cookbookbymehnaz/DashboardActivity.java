@@ -11,6 +11,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 import com.mehnaz.cookbookbymehnaz.Adapter.DashboardAdapter;
+import com.mehnaz.cookbookbymehnaz.Adapter.ShortcutlistAdapter;
 import com.mehnaz.cookbookbymehnaz.Models.FruitModel;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -30,13 +31,13 @@ import java.util.ArrayList;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class DashboardActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener  {
+public class DashboardActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, DashboardAdapter.ItemClickListener  {
     @BindView(R.id.recyclerview)
     RecyclerView listView;
     private DashboardAdapter adapter;
 //    ArrayList<SubjectList> subjectList;
 ArrayList<FruitModel> imageModelArrayList;
-    private int[] myImageList = new int[]{R.drawable.noodls, R.drawable.pasta,R.drawable.meatball, R.drawable.cheesecake,R.drawable.steak,R.drawable.soup,R.drawable.soup,R.drawable.steak,R.drawable.steak};
+    private int[] myImageList = new int[]{R.drawable.breakfast, R.drawable.lunch,R.drawable.frychicken, R.drawable.steak,R.drawable.cheesecake,R.drawable.noodls,R.drawable.soup,R.drawable.cholabhatura,R.drawable.pizza};
     private String[] data = new String[]{"Breakfast", "Lunch", "Snacks","Dinner","Desert","Thai","Chinese","Indian","Italian"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,11 +75,13 @@ ArrayList<FruitModel> imageModelArrayList;
 //        String[] data = {"Breakfast", "Lunch", "Snacks","Dinner","Thai","Chinese","Indian","Italian"};
 //        String[] subtext ={"0","0.00%","Show results","EDIT Profile","0","0.00%","Show results","EDIT Profile"};
 
+
         int numberOfRows = 2;
         imageModelArrayList = eatFruits();
         listView.setLayoutManager(new GridLayoutManager(this, numberOfRows));
         adapter = new DashboardAdapter(this,imageModelArrayList);
         listView.setAdapter(adapter);
+        adapter.setClickListener(this);
 
 
 
@@ -148,7 +151,7 @@ ArrayList<FruitModel> imageModelArrayList;
             Intent intent = new Intent(this,FavoriteDishesActivity.class);
             this.startActivity(intent);
         } else if (id == R.id.nav_top_dishes) {
-            Intent intent = new Intent(this,FavoriteDishesActivity.class);
+            Intent intent = new Intent(this,TopDishesActivity.class);
             this.startActivity(intent);
         } else if (id == R.id.nav_tips_tricks) {
 //            Intent intent = new Intent(this,LoginActivity.class);
@@ -160,5 +163,10 @@ ArrayList<FruitModel> imageModelArrayList;
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+    @Override
+    public void onItemClick(View view, int position) {
+        Intent intent = new Intent(this,FoodCategoryActivity.class);
+        this.startActivity(intent);
     }
 }

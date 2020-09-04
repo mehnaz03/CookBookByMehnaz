@@ -25,7 +25,6 @@
         android:background="@drawable/rounded_gray"
         app:queryHint="Search here..."
         />
-
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,16 +32,8 @@
         app:layout_constraintTop_toBottomOf="@id/search_bar"
         android:layout_margin="10dp"
         android:orientation="horizontal"
-
-        />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/recyclerview2"
-        app:layout_constraintTop_toBottomOf="@id/recyclerview"
-        android:layout_margin="10dp"
-        android:orientation="vertical"
         android:paddingBottom="@dimen/_120sdp"
         />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

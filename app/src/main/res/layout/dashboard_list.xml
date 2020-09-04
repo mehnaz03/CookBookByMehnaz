@@ -27,7 +27,9 @@
                     android:id="@+id/imgMarks1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/cheesecake"/>
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                 />
             </RelativeLayout>
 
 

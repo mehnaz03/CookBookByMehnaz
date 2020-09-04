@@ -23,9 +23,6 @@ public class ShortcutItemsActivity_ViewBinding implements Unbinder {
     this.target = target;
 
     target.listView = Utils.findRequiredViewAsType(source, R.id.recyclerview, "field 'listView'", RecyclerView.class);
-    target.my_recycler_view = Utils.findRequiredViewAsType(source, R.id.recyclerviewParent, "field 'my_recycler_view'", RecyclerView.class);
-    target.my_recycler_view2 = Utils.findRequiredViewAsType(source, R.id.recyclerviewParent3, "field 'my_recycler_view2'", RecyclerView.class);
-    target.my_recycler_view3 = Utils.findRequiredViewAsType(source, R.id.recyclerviewParent4, "field 'my_recycler_view3'", RecyclerView.class);
   }
 
   @Override
@@ -36,8 +33,5 @@ public class ShortcutItemsActivity_ViewBinding implements Unbinder {
     this.target = null;
 
     target.listView = null;
-    target.my_recycler_view = null;
-    target.my_recycler_view2 = null;
-    target.my_recycler_view3 = null;
   }
 }

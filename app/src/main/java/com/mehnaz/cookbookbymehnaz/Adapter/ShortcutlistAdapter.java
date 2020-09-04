@@ -12,12 +12,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.mehnaz.cookbookbymehnaz.Models.FruitModel;
 import com.mehnaz.cookbookbymehnaz.R;
+import com.mehnaz.cookbookbymehnaz.ShortcutItemsActivity;
 
 import java.util.ArrayList;
 
 
 public class ShortcutlistAdapter extends RecyclerView.Adapter<ShortcutlistAdapter.MyViewHolder> {
-
+    private  ShortcutlistAdapter.ItemClickListener mClickListener;
     private LayoutInflater inflater;
     private ArrayList<FruitModel> imageModelArrayList;
 
@@ -30,7 +31,7 @@ public class ShortcutlistAdapter extends RecyclerView.Adapter<ShortcutlistAdapte
     @Override
     public ShortcutlistAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        View view = inflater.inflate(R.layout.series_items, parent, false);
+        View view = inflater.inflate(R.layout.shortcut_dishes_items, parent, false);
         MyViewHolder holder = new MyViewHolder(view);
 
         return holder;
@@ -47,7 +48,9 @@ public class ShortcutlistAdapter extends RecyclerView.Adapter<ShortcutlistAdapte
         return imageModelArrayList.size();
     }
 
-    class MyViewHolder extends RecyclerView.ViewHolder{
+
+
+    class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         TextView time;
         ImageView iv;
@@ -57,7 +60,21 @@ public class ShortcutlistAdapter extends RecyclerView.Adapter<ShortcutlistAdapte
 
             time = (TextView) itemView.findViewById(R.id.tvTitle);
             iv = (ImageView) itemView.findViewById(R.id.imgMarks1);
+            itemView.setOnClickListener(this);
         }
+        @Override
+        public void onClick(View view) {
+
+            if (mClickListener != null) mClickListener.onItemClick(view, getAdapterPosition());
+        }
+    }
+    // allows clicks events to be caught
+    public void setClickListener(ShortcutlistAdapter.ItemClickListener itemClickListener) {
+        this.mClickListener = itemClickListener;
+    }
+    // parent activity will implement this method to respond to click events
+    public interface ItemClickListener {
+        void onItemClick(View view, int position);
 
     }
 }

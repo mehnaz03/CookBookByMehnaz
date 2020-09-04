@@ -8,38 +8,43 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 
 import com.google.android.material.navigation.NavigationView;
 import com.mehnaz.cookbookbymehnaz.Adapter.RecyclerViewDataAdapter;
 import com.mehnaz.cookbookbymehnaz.Adapter.ShortcutlistAdapter;
 import com.mehnaz.cookbookbymehnaz.Models.FruitModel;
 
+import java.lang.annotation.Annotation;
 import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnItemClick;
 
-public class ShortcutItemsActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class ShortcutItemsActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,ShortcutlistAdapter.ItemClickListener{
 @BindView(R.id.recyclerview)
 RecyclerView listView;
 ShortcutlistAdapter adapter;
 
-ArrayList<FruitModel> allSampleData;
-        @BindView(R.id.recyclerviewParent)
-        RecyclerView my_recycler_view;
-        @BindView(R.id.recyclerviewParent3)
-        RecyclerView my_recycler_view2;
-        @BindView(R.id.recyclerviewParent4)
-        RecyclerView my_recycler_view3;
+//ArrayList<FruitModel> allSampleData;
+//        @BindView(R.id.recyclerviewParent)
+//        RecyclerView my_recycler_view;
+//        @BindView(R.id.recyclerviewParent3)
+//        RecyclerView my_recycler_view2;
+//        @BindView(R.id.recyclerviewParent4)
+//        RecyclerView my_recycler_view3;
 ArrayList<FruitModel> imageModelArrayList;
 
 
-private int[] myImageList = new int[]{R.drawable.noodls, R.drawable.pasta,R.drawable.cheesecake, R.drawable.meatball,R.drawable.steak,R.drawable.soup,R.drawable.meatball2};
-private String[] myImageNameList = new String[]{"Apple","Mango" ,"Strawberry","Pineapple","Orange","Blueberry","Watermelon"};
+private int[] myImageList = new int[]{R.drawable.noodls, R.drawable.pasta,R.drawable.cheesecake, R.drawable.meatball,R.drawable.steak,R.drawable.soup,R.drawable.frychicken};
+private String[] myImageNameList = new String[]{"Noodles","Pasta" ,"Cheesecake","Meatball","Steak","Soup","Chicken Fry"};
 @Override
 protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,31 +73,31 @@ private void successResult()
         imageModelArrayList = eatFruits();
         adapter = new ShortcutlistAdapter(this, imageModelArrayList);
         listView.setAdapter(adapter);
-        listView.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
-
+        listView.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.VERTICAL, false));
+        adapter.setClickListener(this);
 
 
 
 
         //  createDummyData();
 
-        allSampleData = eatFruits();
-        RecyclerViewDataAdapter adapter = new RecyclerViewDataAdapter(this, allSampleData);
-        my_recycler_view.setAdapter(adapter);
-        my_recycler_view.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+//        allSampleData = eatFruits();
+//        RecyclerViewDataAdapter adapter = new RecyclerViewDataAdapter(this, allSampleData);
+//        my_recycler_view.setAdapter(adapter);
+//        my_recycler_view.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
 
-        allSampleData = eatFruits();
-        RecyclerViewDataAdapter adapter2 = new RecyclerViewDataAdapter(this, allSampleData);
-        my_recycler_view2.setAdapter(adapter2);
-        my_recycler_view2.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-
-        allSampleData = eatFruits();
-        RecyclerViewDataAdapter adapter3 = new RecyclerViewDataAdapter(this, allSampleData);
-        my_recycler_view3.setAdapter(adapter3);
-        my_recycler_view3.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+//        allSampleData = eatFruits();
+//        RecyclerViewDataAdapter adapter2 = new RecyclerViewDataAdapter(this, allSampleData);
+//        my_recycler_view2.setAdapter(adapter2);
+//        my_recycler_view2.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+//
+//        allSampleData = eatFruits();
+//        RecyclerViewDataAdapter adapter3 = new RecyclerViewDataAdapter(this, allSampleData);
+//        my_recycler_view3.setAdapter(adapter3);
+//        my_recycler_view3.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
 
         }
-private ArrayList<FruitModel> eatFruits(){
+     private ArrayList<FruitModel> eatFruits(){
 
         ArrayList<FruitModel> list = new ArrayList<>();
 
@@ -157,5 +162,12 @@ private ArrayList<FruitModel> eatFruits(){
                 drawer.closeDrawer(GravityCompat.START);
                 return true;
 
+        }
+
+
+        @Override
+        public void onItemClick(View view, int position) {
+                Intent intent = new Intent(this,DashboardActivity.class);
+                this.startActivity(intent);
         }
 }

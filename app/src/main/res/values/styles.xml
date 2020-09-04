@@ -5,6 +5,7 @@
         <item name="colorPrimaryDark">@color/colorOrangeDark</item>
         <item name="colorPrimary">#9BFFC107</item>
         <item name="colorAccent">@color/colorWhite</item>
+        <item name="android:textColorSecondary">@color/colorYellow</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">

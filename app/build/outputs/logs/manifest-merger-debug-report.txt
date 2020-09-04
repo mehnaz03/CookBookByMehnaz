@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.navigation:navigation-ui:2.3.0] D:\AllAndroid\DooApp\.gradle\caches\transforms-2\files-2.1\d0f92c0b26fabb47a28488bab3cc8456\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0-alpha01] D:\AllAndroid\DooApp\.gradle\caches\transforms-2\files-2.1\4470ad15ec0231a791eaf5557ac36429\material-1.3.0-alpha01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] D:\AllAndroid\DooApp\.gradle\caches\transforms-2\files-2.1\f209091eb3926c649f0b3346884e478c\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -55,25 +55,25 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] D:\AllA
 MERGED from [androidx.print:print:1.0.0] D:\AllAndroid\DooApp\.gradle\caches\transforms-2\files-2.1\87e4a5cb4839ebd5d033fa0ae6227780\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] D:\AllAndroid\DooApp\.gradle\caches\transforms-2\files-2.1\bcf856ddfeb04b3b73ed182739910d39\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] D:\AllAndroid\DooApp\.gradle\caches\transforms-2\files-2.1\1e0614212b25f4ae67724a3587ed8129\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml
 		INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml
-		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml
-		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.google.android.material:material:1.3.0-alpha01] D:\AllAndroid\DooApp\.gradle\caches\transforms-2\files-2.1\4470ad15ec0231a791eaf5557ac36429\material-1.3.0-alpha01\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0-alpha01] D:\AllAndroid\DooApp\.gradle\caches\transforms-2\files-2.1\4470ad15ec0231a791eaf5557ac36429\material-1.3.0-alpha01\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] D:\AllAndroid\DooApp\.gradle\caches\transforms-2\files-2.1\75baa063235eedb7ab2cc635bdb88d73\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -95,7 +95,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] D:\AllAndro
 	android:label
 		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:9:9-44
 	android:icon
 		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
@@ -103,31 +103,39 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] D:\AllAndro
 	android:theme
 		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:11:9-48
 activity#com.mehnaz.cookbookbymehnaz.FavoriteDishesActivity
-ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:12:9-69
+ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:12:9-59
 	android:name
 		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:12:19-57
 activity#com.mehnaz.cookbookbymehnaz.ShortcutItemsActivity
 ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:13:9-59
 	android:name
 		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:13:19-56
+activity#com.mehnaz.cookbookbymehnaz.FoodCategoryActivity
+ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:14:9-58
+	android:name
+		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:14:19-55
+activity#com.mehnaz.cookbookbymehnaz.TopDishesActivity
+ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:15:9-55
+	android:name
+		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:15:19-52
 activity#com.mehnaz.cookbookbymehnaz.MainActivity
-ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:14:9-20:20
+ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:20:27-74
 activity#com.mehnaz.cookbookbymehnaz.DashboardActivity
-ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:21:9-55
+ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:23:9-55
 	android:name
-		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:21:19-52
+		ADDED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml:23:19-52
 uses-sdk
 INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\AllAndroid\CookBook\app\src\main\AndroidManifest.xml

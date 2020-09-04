@@ -53,9 +53,9 @@ public class FavoriteItemsAdapter extends RecyclerView.Adapter<FavoriteItemsAdap
 
         public MyViewHolder(View itemView) {
             super(itemView);
+            time = (TextView) itemView.findViewById(R.id.tvTitle);
+            iv = (ImageView) itemView.findViewById(R.id.imgMarks1);
 
-            time = (TextView) itemView.findViewById(R.id.tv);
-            iv = (ImageView) itemView.findViewById(R.id.iv);
         }
 
     }

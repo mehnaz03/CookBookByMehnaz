@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/_10sdp"
     app:cardCornerRadius="15dp"
-    app:cardElevation="@dimen/_10sdp"
+    app:cardElevation="@dimen/_15sdp"
     >
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -15,7 +15,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/imgMarks"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_180sdp"
+            android:layout_height="@dimen/_200sdp"
             android:textColor="@android:color/white"
             app:layout_constraintTop_toTopOf="parent"
             android:contentDescription="TODO" >
@@ -34,7 +34,24 @@
                 <TextView
                     android:id="@+id/tvTitle"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/_120sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_136sdp"
+                    android:background="@color/transparent"
+                    android:gravity="left"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvTitle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
                     android:background="@color/transparent"
                     android:gravity="left"
                     android:paddingStart="@dimen/_10sdp"
@@ -42,12 +59,12 @@
                     android:paddingEnd="@dimen/_10sdp"
                     android:paddingBottom="@dimen/_5sdp"
                     android:textColor="@color/colorYellow"
-                    android:textSize="@dimen/_16sp"
+                    android:textSize="@dimen/_12sp"
                     android:textStyle="bold"
-                    android:layout_marginTop="@dimen/_120sdp"
+                    android:layout_marginTop="@dimen/_166sdp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="parent" />
+                    app:layout_constraintTop_toBottomOf="@id/tvTitle" />
             </RelativeLayout>
 
 

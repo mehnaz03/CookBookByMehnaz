@@ -23,7 +23,6 @@ public class FavoriteDishesActivity_ViewBinding implements Unbinder {
     this.target = target;
 
     target.listView = Utils.findRequiredViewAsType(source, R.id.recyclerview, "field 'listView'", RecyclerView.class);
-    target.my_recycler_view = Utils.findRequiredViewAsType(source, R.id.recyclerview2, "field 'my_recycler_view'", RecyclerView.class);
   }
 
   @Override
@@ -34,6 +33,5 @@ public class FavoriteDishesActivity_ViewBinding implements Unbinder {
     this.target = null;
 
     target.listView = null;
-    target.my_recycler_view = null;
   }
 }

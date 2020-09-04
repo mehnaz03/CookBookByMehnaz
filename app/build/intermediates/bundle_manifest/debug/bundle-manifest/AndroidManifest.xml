@@ -14,12 +14,14 @@
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_icon"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/NoActionBarTheme" >
         <activity android:name="com.mehnaz.cookbookbymehnaz.FavoriteDishesActivity" />
         <activity android:name="com.mehnaz.cookbookbymehnaz.ShortcutItemsActivity" />
+        <activity android:name="com.mehnaz.cookbookbymehnaz.FoodCategoryActivity" />
+        <activity android:name="com.mehnaz.cookbookbymehnaz.TopDishesActivity" />
         <activity android:name="com.mehnaz.cookbookbymehnaz.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

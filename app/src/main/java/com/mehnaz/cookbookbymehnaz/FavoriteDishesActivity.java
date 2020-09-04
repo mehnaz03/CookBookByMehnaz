@@ -14,6 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
+import com.mehnaz.cookbookbymehnaz.Adapter.FavoriteItems2Adapter;
 import com.mehnaz.cookbookbymehnaz.Adapter.FavoriteItemsAdapter;
 import com.mehnaz.cookbookbymehnaz.Adapter.RecyclerViewDataAdapter;
 import com.mehnaz.cookbookbymehnaz.Adapter.ShortcutlistAdapter;
@@ -27,16 +28,16 @@ import butterknife.ButterKnife;
 public class FavoriteDishesActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     @BindView(R.id.recyclerview)
     RecyclerView listView;
-    FavoriteItemsAdapter adapter;
+    FavoriteItems2Adapter adapter;
 
     ArrayList<FruitModel> allSampleData;
-    @BindView(R.id.recyclerview2)
-    RecyclerView my_recycler_view;
+//    @BindView(R.id.recyclerview2)
+//    RecyclerView my_recycler_view;
     ArrayList<FruitModel> imageModelArrayList;
 
 
-    private int[] myImageList = new int[]{R.drawable.noodls, R.drawable.pasta,R.drawable.meatball, R.drawable.pineapple,R.drawable.orange,R.drawable.blue,R.drawable.water};
-    private String[] myImageNameList = new String[]{"Noodles","Pasta" ,"Meatball","Pineapple","Orange","Blueberry","Watermelon"};
+    private int[] myImageList = new int[]{R.drawable.noodls, R.drawable.pasta,R.drawable.meatball, R.drawable.frychicken,R.drawable.lunch,R.drawable.soup,R.drawable.burger};
+    private String[] myImageNameList = new String[]{"Noodles","Pasta" ,"Meatball","Chicken Fry","Rice","Soup","Burger"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,9 +64,9 @@ public class FavoriteDishesActivity extends AppCompatActivity implements Navigat
 
 
         imageModelArrayList = eatFruits();
-        adapter = new  FavoriteItemsAdapter(this, imageModelArrayList);
+        adapter = new FavoriteItems2Adapter(this, imageModelArrayList);
         listView.setAdapter(adapter);
-        listView.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
+        listView.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.VERTICAL, false));
 
 
 
@@ -73,11 +74,11 @@ public class FavoriteDishesActivity extends AppCompatActivity implements Navigat
 
         //  createDummyData();
 
-        allSampleData = eatFruits();
-        RecyclerViewDataAdapter adapter = new RecyclerViewDataAdapter(this, allSampleData);
-        my_recycler_view.setAdapter(adapter);
-        my_recycler_view.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-
+//        allSampleData = eatFruits();
+//        RecyclerViewDataAdapter adapter = new RecyclerViewDataAdapter(this, allSampleData);
+//        my_recycler_view.setAdapter(adapter);
+//        my_recycler_view.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+//
 
 
     }
@@ -134,7 +135,8 @@ public class FavoriteDishesActivity extends AppCompatActivity implements Navigat
             Intent intent = new Intent(this,FavoriteDishesActivity.class);
             this.startActivity(intent);
         } else if (id == R.id.nav_top_dishes) {
-
+            Intent intent = new Intent(this,TopDishesActivity.class);
+            this.startActivity(intent);
         } else if (id == R.id.nav_tips_tricks) {
 //            Intent intent = new Intent(this,LoginActivity.class);
 //            this.startActivity(intent);
